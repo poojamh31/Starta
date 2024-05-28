@@ -1,0 +1,256 @@
+
+
+/* Siderbar css starts here */
+.wrapper{
+    display: flex;
+    position: relative;
+}
+
+body{
+    font-family: 'Source Sans 3', sans-serif;
+}
+.wrapper #Sidebar{
+    position: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./Images/ss.PNG);
+    /* background: blueviolet; */
+    /* background-position: left; */
+    width: 30%;
+    height: 100%;
+    /* background: fixed; */
+}
+#Sidebar img{
+    margin-top: 110px;
+    width: 100px;
+    border-radius: 100% !important;
+    margin-left:235px;
+}
+#Sidebar span{
+    color: #f6fbff; 
+    font-weight: 900;
+}
+#span123{
+    border-bottom: 1px dotted #acadae;
+    font-weight: 400 !important;
+    color: #acadae !important;
+    cursor: pointer;
+}
+#Sidebar h2{
+      color: #acadae;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: right;
+    padding-right: 45px;
+    font-size: 20px;
+}
+#Sidebar ul{
+    display: inline-block;
+    margin-left: 130px;
+}
+#Sidebar ul li{
+    display: inline-block;
+    padding-left: 14px;
+    
+}
+#Sidebar i{
+    font-size: 28px;
+    color: #acadae;
+    cursor: pointer;
+}
+#Sidebar p{
+    font-size: 13.5px;
+    color: #acadae;
+    font-weight: 100;
+    margin-left: 150px;
+}
+#span456{
+    border-bottom: 1px dotted #acadae;
+    font-weight: 100 !important;
+    color: #acadae !important;
+    cursor: pointer;
+}
+#span789{
+    border-bottom: 1px dotted #acadae;
+    font-weight: 100 !important;
+    color: #acadae !important;
+    cursor: pointer;
+}
+#one{
+    padding-left: 126px;
+}
+#two{
+    padding-left: 83px;
+}
+#three{
+    padding-left: 49px;
+}
+/* Sidebar css ends here */
+
+/* Content css Starts here */
+#Content{
+    margin-top: 110px;
+    margin-left: 430px;
+    margin-right: 35px;
+
+    border-bottom: 2px solid #d9d7d7;
+}
+#Content h1{
+    color: #787878;
+    font-weight: 400;
+}
+#Content p{
+    margin-top: 25px;
+    color: #adabab;
+    font-weight: 100;
+    font-size: 17px;
+}
+#Content button{
+    margin-top: 20px;
+    padding: 15px 33px 15px 33px;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #6b6868;
+    border: 2px solid #e9e9e9;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 40px; 
+}
+
+/* Content css ends here */
+
+/* Image css Starts here */
+#Image{
+    margin-left: 430px;
+    margin-top: 50px;
+    margin-right: 35px;
+    border-bottom: 2px solid #d9d7d7;
+}
+#Image h1{
+    color: #787878;
+    font-size: 27px;
+    font-weight: 400;
+}
+#Image div{
+    display: inline-block;
+    padding-right: 25px;
+}
+#Image img{
+    width: 360px;
+    border-radius: 6px 6px 6px 6px !important;
+}
+#Image h3{
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #787878;
+}
+#Image p{
+    font-size: 15px;
+    color: #acaaaa;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+#Image button{
+    margin-top: 20px;
+    padding: 15px 33px 15px 33px;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #6b6868;
+    border: 2px solid #e9e9e9;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 50px; 
+}
+
+/* Image css ends here */
+
+/* Last css start here */
+#Last{
+    margin-left: 430px;
+    margin-top: 50px;
+    margin-right: 35px;
+    
+}
+/* #Last div{
+    display: inline-block;
+} */
+#Last h1{
+    color: #787878;
+    font-size: 27px;
+    font-weight: 400;
+}
+#Last p{
+    margin-top: 10px;
+    color: #adabab;
+    font-weight: 100;
+}
+#form{
+    padding-top: 15px;
+    
+}
+form{
+    width: 55% !important;
+    max-width:600px !important;
+}
+.input-grp{
+    margin-bottom: 10px;
+    /* padding-right: 10px; */
+}
+.input-grp-message{
+    width: 100% !important;
+}
+.row{
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.row.input-grp{
+    flex-basis: 40% !important;
+}
+input,textarea{
+    
+    width: 100%;
+    padding: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    background-color: #eeecec;
+    border: none;
+    font-size: 15px;  
+    border-radius: 5px; 
+}
+#form button{
+    margin-top: 7px;
+    padding: 15px 33px 15px 33px;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #6b6868;
+    border: 2px solid #e9e9e9;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 50px; 
+}
+#Contact{
+    text-align: center;
+    
+}
+#Contact ul{
+    display: inline-block;
+    
+}
+#Contact ul li{
+    display: inline-block;
+    padding-right: 30px;
+}
+#Contact h2{
+  font-size: 15px;
+  color: #acaaaa;
+  font-weight: 100;
+}
+#Contact i{
+    font-size: 30px;
+    color: #787878;
+}
+
+
+/* Last css ends here */
